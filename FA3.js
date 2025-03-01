@@ -1,5 +1,5 @@
 function generateNumber(){
-    var random = Math.round(Math.random()*20);
+    var random = Math.ceil(Math.random()*20);
     return random;   
 }
 
